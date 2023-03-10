@@ -6,7 +6,7 @@
 //Add modify by lsgsoftware
 
 // the setup function runs once when you press reset or power the board
-#include "eRCaGuy_analogReadXXbit.h"
+#include "classes/MyClass.h"
 
 void setup() {
 	Serial.begin(115200);
