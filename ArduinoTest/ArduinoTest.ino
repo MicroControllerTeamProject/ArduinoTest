@@ -16,3 +16,8 @@ void setup() {
 void loop() {       
   
 }
+
+int funzione_two()
+{
+	//3456
+}
