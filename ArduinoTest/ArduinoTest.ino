@@ -17,6 +17,11 @@ void loop() {
   
 }
 
+int funzione_two()
+{
+	//3456
+}
+
 void funzione_one()
 {
 	//123
