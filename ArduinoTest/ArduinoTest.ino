@@ -16,3 +16,8 @@ void setup() {
 void loop() {       
   
 }
+
+void funzione_one()
+{
+	//123
+}
