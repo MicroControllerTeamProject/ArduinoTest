@@ -14,7 +14,7 @@ void setup() {
 
 // the loop function runs over and over again until power down or reset
 void loop() {       
-  //Hello//HI
+  //Hello//HI//HI
 }
 
 int funzione_two()
