@@ -1,5 +1,6 @@
+//commento per merge
 /*  
- Name:		ArduinoTest.ino
+ Name:		ArduinoTest.ino 
  Created:	10/24/2018 2:30:24 PM
  Author:	luigi.santagada
 */
