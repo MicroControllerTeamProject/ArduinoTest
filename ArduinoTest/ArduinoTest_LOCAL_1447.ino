@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 //commento per merge 2
-=======
-//commento per merge 1
->>>>>>> 549ac6584179e32a34b705e67955e4f28fb72d70
 /*  
  Name:		ArduinoTest.ino 
  Created:	10/24/2018 2:30:24 PM
