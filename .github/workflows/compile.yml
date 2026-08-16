@@ -1,0 +1,32 @@
+name: Compile Arduino sketch
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  compile:
+    name: Compile for Arduino Nano
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Install Arduino CLI
+        uses: arduino/setup-arduino-cli@v2
+        with:
+          version: "1.5.1"
+
+      - name: Install Arduino AVR core
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr@1.8.6
+
+      - name: Compile sketch
+        run: >-
+          arduino-cli compile
+          --fqbn arduino:avr:nano:cpu=atmega328old
+          ArduinoTest
