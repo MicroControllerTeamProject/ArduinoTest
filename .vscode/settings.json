@@ -1,0 +1,12 @@
+{
+  "arduino.useArduinoCli": true,
+  "arduino.logLevel": "info",
+  "arduino.clearOutputOnBuild": true,
+  "arduino.enableUSBDetection": false,
+  "arduino.disableIntelliSenseAutoGen": false,
+  "arduino.analyzeOnOpen": true,
+  "arduino.analyzeOnSettingChange": true,
+  "files.associations": {
+    "*.ino": "cpp"
+  }
+}

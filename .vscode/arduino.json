@@ -1,0 +1,7 @@
+{
+  "sketch": "ArduinoTest/ArduinoTest.ino",
+  "board": "arduino:avr:nano",
+  "configuration": "cpu=atmega328old",
+  "output": "../ArduinoTest-build",
+  "intelliSenseGen": "enable"
+}
