@@ -11,6 +11,7 @@ void setup() {
 
 // the loop function runs over and over again until power down or reset
 void loop() {       
+	int c = 10 * 10;
   //Hello//HI//HI......prossima modifica2!!!!!!
 }
 
